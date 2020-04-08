@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToSignupBtn"
+        android:text="SignUp"
+        android:textSize="20sp"
+        android:onClick="MoveToSignUpAct"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToSignInBtn"
+        android:text="SignIn"
+        android:textSize="20sp"
+        android:layout_below="@+id/MoveToSignupBtn"
+        android:onClick="MoveToSignInAct"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToDownloadImageBtn"
+        android:text="Download Image"
+        android:textSize="20sp"
+        android:layout_below="@+id/MoveToSignInBtn"
+        android:onClick="MoveToDownloadImage"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToUploadImageBtn"
+        android:text="Upload Image"
+        android:textSize="20sp"
+        android:layout_below="@id/MoveToDownloadImageBtn"
+        android:onClick="MoveToUploadImage"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToUploadVideoBtn"
+        android:text="Upload Video"
+        android:textSize="20sp"
+        android:layout_below="@id/MoveToUploadImageBtn"
+        android:onClick="MoveToUploadVideo"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoveToDownloadVideoBtn"
+        android:text="Download Video"
+        android:textSize="20sp"
+        android:layout_below="@id/MoveToUploadVideoBtn"
+        android:onClick="MoveToDownloadVideo"
+        />
+
+</RelativeLayout>
